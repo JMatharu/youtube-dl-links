@@ -16,7 +16,9 @@ def youtube_link_extractor():
         filtered_video_front = href.replace('/watch?v=', '')
         filtered_video_link = filtered_video_front.replace(url_filter,'')
         final_link_string = filtered_video_link.replace('&&index=', ' (Video Number) ----> ')
+        final_link_string2 = final_link_string.replace('&index=', ' (Video Number) ----> ')
         title = link.string
-        print(title +" "+final_link_string)
+        print(title +" "+final_link_string2)
 
 youtube_link_extractor()
+# &index=4&
