@@ -11,5 +11,4 @@ python youtube-dl-links.py
 ```
 License
 ----
-MIT
 **Free Software, Hell Yeah!**
